@@ -7,7 +7,7 @@ from global_constants import constants
 pygame.init()
 screen = pygame.display.set_mode(constants.screenSize)
 running = True
-screen.fill(constants.red)
+screen.fill(constants.blue)
 
 
 while running:
