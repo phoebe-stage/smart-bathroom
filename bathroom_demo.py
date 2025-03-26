@@ -1,18 +1,13 @@
 import pygame
 import random
 
-##------VARIABLES------
-screenSize = [1280,720]
-
-##------COLOURS------
-red = (255,0,0)
-
+from global_constants import constants
 
 
 pygame.init()
-screen = pygame.display.set_mode(screenSize)
+screen = pygame.display.set_mode(constants.screenSize)
 running = True
-screen.fill(red)
+screen.fill(constants.red)
 
 
 while running:
