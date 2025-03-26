@@ -4,6 +4,5 @@ Aaron testing git pull and push
 
 ## How to operate
 
-* open two terminals
-* in one terminal run ```python3 settings.py```
-* in another run ```python3 bathroom.py```
+* before running the first time, in a terminal run ```chmod +x run_demo.sh```
+* then run ```./run_demo.sh```
