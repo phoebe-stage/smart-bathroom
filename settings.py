@@ -20,8 +20,8 @@ while running:
             running = False
     pygame.display.flip()
     output.setText(slider.getValue())
-    humidityLevel = slider.getValue()
-    print(humidityLevel)
+    constants.humidityLevel = slider.getValue()
+    print(constants.humidityLevel)
     pygame_widgets.update(events)
     pygame.display.update()
 pygame.quit()
